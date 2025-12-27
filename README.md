@@ -75,11 +75,11 @@ Thus, the program was implemented and executed successfully, and the required ou
 ```
 #include <stdio.h>
 
-#define PI 3.14159   // Macro constant
+#define PI 3.14159   
 
 int main()
 {
-    const int DAYS = 7;   // Constant variable
+    const int DAYS = 7;  
 
     printf("Value of macro constant PI = %.5f\n", PI);
     printf("Value of constant variable DAYS = %d\n", DAYS);
